@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='icon' href="images/logo.png">
+    <link rel="stylesheet" href="index.css">
+    <link href='https://fonts.googleapis.com/css?family=Abril Fatface' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            // Add smooth scrolling to all links
+            $("a").on('click', function (event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                }
+            });
+        });
+    </script>
+    
+    <title>HOME- Coders Guide</title>
+    <style>
+        .main2 a {
+            font-size: 30px;
+            text-decoration: underline;
+            color: blue;
+        }
+         .main1{
+             width: 65%;
+             padding-left: 10% !important;
+         }
+    </style>
+</head>
+
+<body>
+
+    <div class="header" id="home">
+        <h1>Coders Guide</h1>
+    </div>
+
+    <header>
+        <div class="navbar">
+            <img src="images/logo.png" alt="">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#section1">What is Coding?</a></li>
+                <li><a href="lang.html">Languages</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <div class="search">
+                    <input type="text" name="search" id="" placeholder="Search Here">
+                    <button><i class="fa fa-fw fa-search"></i></button>
+
+                </div>
+            </ul>
+        </div>
+    </header>
+
+    <div class="main">
+        <h1>Hello Coders,<br></h1>
+    </div>
+
+    <div class="right">
+        <p>Coders Guide is a platform which helps you to<br>learn Programings in very easy way<br> and makes You
+            Understandable<br> of all the codes for the<br> lifetime.</p>
+        <hr>
+    </div>
+
+    <div class="main1">
+        <br><br>
+        <div class="img-container">
+            <div class="polaroid">
+                <a href="lang.html">
+                    <img src="images/lang.jpg" alt="languages" width="190" height="160">
+                    <div class="container">
+                        <p><b>LANGUAGES</b></p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="polaroid">
+                <a href="cheats.html"><img src="images/cheat.jpg" alt="cheatsheets" width="190" height="160">
+                    <div class="container">
+                        <p><b>CHEATSHEETS</b></p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="polaroid">
+                <a href="gallery.html"><img src="images/gallery.jpg" alt="examples" width="190" height="160">
+                    <div class="container">
+                        <p><b>Gallery</b></p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="main2" id="section1">
+        <div class="col1">
+            <h1>What is Coding?</h1>
+            <p>Coding, sometimes called computer programming, is how we communicate with computers. Code tells a
+                computer what actions to take, and writing code is like creating a set of instructions. By learning
+                to write code, you can tell computers what to do or how to behave in a much faster way.
+                You can use this skill to make websites and apps, process data, and do lots of other cool things.</p>
+            <a href="#section2"><b>Click Me to Scroll</b></a>
+            
+        </div>
+        <div class="col2">
+            <img src="images/coding.jpg" class=".center" alt="coding" width="800px" height="700px">
+        </div>
+    </div>
+    <div class="main2" id="section2">
+        <div class="block">
+            
+            <br>
+            <h2 style="font-size: 40px; text-align: center;">Subscribe to CodersGuide</h2>
+            <p style="padding-left: 30px; padding-right: 30px; font-size: 20px;">Before you forget, the first thing you
+                should do is claim your free subscription to the Coders Guide
+                newsletter. Enter your email address below to be regularly notified of additions and
+                changes to the site. We won't spam you, and you can unsubscribe at any time.</p><br>
+                
+                <input style="max-width: 300px;" class="input" name="EMAIL" type="email" placeholder="Email Address"><br>
+                <input style="margin-left: 30px;" name="subscribe" type="submit" value="Notify Me!"><br><br><br>
+                
+            </div>
+            
+            <a href="#home" style=" margin-left: 400px;">Go Back To Top</a>
+        </div>
+        
+        <div class="main2">
+            <div class="footer">
+    
+                <p style="font-size:15px" class="para">Copyright © 2021-2022 CodersGuide.com</p>
+                <h3></h3>
+    
+            </div>
+        </div>
+        
+
+
+</body>
+
+</html>
