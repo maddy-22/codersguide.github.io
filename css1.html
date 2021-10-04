@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cheats.css">
+    <link rel='icon' href="images/logo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="prism.css">
+    <script src="prism.js"></script>
+
+    <title>CSS Cheatsheet</title>
+</head>
+
+<body>
+    <nav>
+        <span class="logo"><img src="images/copy.jpg" alt="" width="40px"></span>
+        <div class="content center">
+            This CSS cheatsheet is for you!
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>CSS Cheatsheet</h1><br>
+        <h2>Font</h2>
+        <p>There are many properties related to the font, such as the face, weight, style, etc.
+            These properties allow you to change the style or complete look of your text.</p><br>
+        <h3>Font-Family</h3>
+        <pre class="language-css"><code>font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;</code></pre>
+        <h3>Font-Style</h3>
+        <pre class="language-css"><code>font-style: italic;</code></pre>
+        <h3>Font-Variant</h3>
+        <pre class="language-css"><code>font-variant: small-caps;</code></pre>
+        <h3>Font-Weight</h3>
+        <pre class="language-css"><code>font-weight: bold;</code></pre>
+        <h3>Font-Size</h3>
+        <pre class="language-css"><code>font-size: larger;</code></pre>
+        <h3>Font</h3>
+        <pre class="language-css"><code>font: style variant weight size family;</code></pre><br>
+
+        <h2>Text</h2>
+        <p>Text properties allow one to manipulate alignment, spacing, decoration, indentation, etc., in
+            the document.</p><br>
+        <h3>Text-Align</h3>
+        <pre class="language-css"><code>text-align: justify;</code></pre>
+        <h3>Letter-Spacing</h3>
+        <pre class="language-css"><code>letter-spacing: .15em;</code></pre>
+        <h3>Text-Decoration</h3>
+        <pre class="language-css"><code>text-decoration: underline;</code></pre>
+        <h3>Word-Spacing</h3>
+        <pre class="language-css"><code>word-spacing: 0.25em;</code></pre>
+        <h3>Text-Transform</h3>
+        <pre class="language-css"><code>text-transform: uppercase;</code></pre>
+        <h3>Text-Indent</h3>
+        <pre class="language-css"><code>text-indent: 0.5cm;</code></pre>
+        <h3>Line-Height</h3>
+        <pre class="language-css"><code>line-height: normal;</code></pre>
+        <p></p>
+    </div>
+    <div class="container">
+        <h2>Background</h2>
+        <p>As the name suggests, these properties are related to background, i.e., you can change the color, image,
+            position, size, etc., of the document.</p><br>
+        <h3>Background-Image</h3>
+        <pre class="language-css"><code>background-image: url("Path");</code></pre>
+        <h3>Background-Position</h3>
+        <pre class="language-css"><code>background-position: right top;</code></pre>
+        <h3>Background-Size</h3>
+        <pre class="language-css"><code>background-size: cover;</code></pre>
+        <h3>Background-Repeat</h3>
+        <pre class="language-css"><code>background-repeat: no-repeat;</code></pre>
+        <h3>Background-Attachment</h3>
+        <pre class="language-css"><code>background-attachment: scroll;</code></pre>
+        <h3>Background-Color</h3>
+        <pre class="language-css"><code>background-color: fuchsia;</code></pre>
+        <h3>Background</h3>
+        <pre class="language-css"><code>background: color image repeat attachment position;</code></pre><br>
+
+        <h2>Border</h2>
+        <p>Border properties are used to change the style, radius, color, etc., of buttons or other items of the
+            document.</p><br>
+        <h3>Border-Width</h3>
+        <pre class="language-css"><code>border-width: 5px;</code></pre>
+        <h3>Border-Style</h3>
+        <pre class="language-css"><code>border-style: solid;</code></pre>
+        <h3>Border-Color</h3>
+        <pre class="language-css"><code>border-color: aqua;</code></pre>
+        <h3>Border-Radius</h3>
+        <pre class="language-css"><code>border-radius: 15px;</code></pre>
+        <h3>Border</h3>
+        <pre class="language-css"><code>border: width style color;</code></pre><br>
+
+        <h2>Box Model</h2>
+        <p>In laymen's terms, the CSS box model is a container that wraps around every HTML element. It consists of
+            margins, borders, padding, and the actual content. It is used to create the design and layout of web pages.
+        </p><br>
+        <h3>Float</h3>
+        <pre class="language-css"><code>float: none;</code></pre>
+        <h3>Clear</h3>
+        <pre class="language-css"><code>clear: both;</code></pre>
+        <h3>Display</h3>
+        <pre class="language-css"><code>display: block;</code></pre>
+        <h3>Height</h3>
+        <pre class="language-css"><code>height: fit-content;</code></pre>
+        <h3>Width</h3>
+        <pre class="language-css"><code>width: auto;</code></pre>
+        <h3>Margin</h3>
+        <pre class="language-css"><code>margin: top right bottom left;</code></pre>
+        <h3>Padding</h3>
+        <pre class="language-css"><code>padding: top right bottom left;</code></pre>
+        <h3>Overflow</h3>
+        <pre class="language-css"><code>overflow: hidden;</code></pre>
+        <h3>Visibility</h3>
+        <pre class="language-css"><code>visibility: visible;</code></pre><br>
+
+        <h2>Colors</h2>
+        <p>With the help of the color property, one can give color to text, shape, or any
+            other object.</p><br>
+        <h3>Color</h3>
+        <pre class="language-css"><code>color: cornsilk;</code></pre>
+        <h3>Opacity</h3>
+        <pre class="language-css"><code>opacity: 4;</code></pre>
+        <p></p>
+    </div>
+    <div class="container">
+        <h2>Template Layout</h2>
+        <p>Specifies the visual look of the content inside a template</p><br>
+        <h3>Box-Align</h3>
+        <pre class="language-css"><code>box-align : start;</code></pre>
+        <h3>Box-Direction</h3>
+        <pre class="language-css"><code>box-direction : normal;</code></pre>
+        <h3>Box-Flex</h3>
+        <pre class="language-css"><code>box-flex : normal;</code></pre>
+        <h3>Box-Flex-Group</h3>
+        <pre class="language-css"><code>box-flex-group : 2;</code></pre>
+        <h3>Box-Orient</h3>
+        <pre class="language-css"><code>box-orient : inline;</code></pre>
+        <h3>Box-Pack</h3>
+        <pre class="language-css"><code>box-pack : justify;</code></pre>
+        <h3>Box-Sizing</h3>
+        <pre class="language-css"><code>box-sizing : margin-box;</code></pre>
+        <h3>max-width</h3>
+        <pre class="language-css"><code>max-width: 800px;</code></pre>
+        <h3>min-width</h3>
+        <pre class="language-css"><code>min-width: 500px;</code></pre>
+        <h3>max-height</h3>
+        <pre class="language-css"><code>max-height: 100px;</code></pre>
+        <h3>min-height</h3>
+        <pre class="language-css"><code>min-height: 80px;</code></pre><br>
+
+        <h2>Table</h2>
+        <p>Table properties are used to give style to the tables in the document. You can change many things like
+            border spacing, table layout, caption, etc.</p><br>
+        <h3>Border-Collapse</h3>
+        <pre class="language-css"><code>border-collapse: separate;</code></pre>
+        <h3>Empty-Cells</h3>
+        <pre class="language-css"><code>empty-cells: show;</code></pre>
+        <h3>Border-Spacing</h3>
+        <pre class="language-css"><code>border-spacing: 2px;</code></pre>
+        <h3>Table-Layout</h3>
+        <pre class="language-css"><code>table-layout: auto;</code></pre>
+        <h3>Caption-Side</h3>
+        <pre class="language-css"><code>caption-side: bottom;</code></pre><br>
+
+        <h2>Columns</h2>
+        <p>These properties are used explicitly with columns of the tables, and they are used to give the table an
+            incredible look.</p><br>
+        <h3>Column-Count</h3>
+        <pre class="language-css"><code>column-count : 10;</code></pre>
+        <h3>Column-Gap</h3>
+        <pre class="language-css"><code>column-gap : 5px;</code></pre>
+        <h3>Column-rule-width</h3>
+        <pre class="language-css"><code>column-rule-width : medium;</code></pre>
+        <h3>Column-rule-style</h3>
+        <pre class="language-css"><code>column-rule-style : dotted ;</code></pre>
+        <h3>Column-rule-color</h3>
+        <pre class="language-css"><code>column-rule-color : black;</code></pre>
+        <h3>Column-width</h3>
+        <pre class="language-css"><code>column-width : 10px;</code></pre>
+        <h3>Column-span</h3>
+        <pre class="language-css"><code>column-span : all;</code></pre><br>
+
+        <h2>List &amp; Markers</h2>
+        <p>List and marker properties are used to customize lists in the document.</p><br>
+        <h3>List-style-type</h3>
+        <pre class="language-css"><code>list-style-type: square;</code></pre>
+        <h3>List-style-position</h3>
+        <pre class="language-css"><code>list-style-position : 20px;</code></pre>
+        <h3>List-style-image</h3>
+        <pre class="language-css"><code>list-style-image : url(�image.gif�);</code></pre>
+        <h3>Marker-offset</h3>
+        <pre class="language-css"><code>marker-offset : auto;</code></pre><br>
+
+        <h2>Animations</h2>
+        <p>CSS animations allow one to animate transitions or other media files on the web page.</p><br>
+        <h3>Animation-name</h3>
+        <pre class="language-css"><code>animation-name : myanimation;</code></pre>
+        <h3>Animation-duration</h3>
+        <pre class="language-css"><code>animation-duration : 10s;</code></pre>
+        <h3>Animation-timing-function</h3>
+        <pre class="language-css"><code>animation-timing-function : ease;</code></pre>
+        <h3>Animation-delay</h3>
+        <pre class="language-css"><code>animation-delay : 5ms;</code></pre>
+        <h3>Animation-iteration-count</h3>
+        <pre class="language-css"><code>animation-iteration-count : 3;</code></pre>
+        <h3>Animation-direction</h3>
+        <pre class="language-css"><code>animation-direction : normal;</code></pre>
+        <h3>Animation-play-state</h3>
+        <pre class="language-css"><code>animation-play-state : running;</code></pre>
+        <h3>Animation-fill-mode</h3>
+        <pre class="language-css"><code>animation-fill-mode : both;</code></pre><br>
+
+        <h2>Transitions</h2>
+        <p>Transitions let you define the transition between two states of an element.</p><br>
+        <h3>Transition-property</h3>
+        <pre class="language-css"><code>transition-property: none;</code></pre>
+        <h3>Transition-duration</h3>
+        <pre class="language-css"><code>transition-duration : 2s;</code></pre>
+        <h3>Transition-timing-function</h3>
+        <pre class="language-css"><code>transition-timing-function: ease-in-out;</code></pre>
+        <h3>Transition-delay</h3>
+        <pre class="language-css"><code>transition-delay : 20ms;</code></pre><br>
+
+        <h2>CSS Flexbox</h2>
+        <p>Flexbox is a layout of CSS that lets you format HTML easily. Flexbox makes it simple to align items
+            vertically and horizontally using rows and columns. Items will "flex" to different sizes to fill the
+            space. And overall, it makes the responsive design more manageable.</p><br>
+        <h2>Parent Properties (flex container)</h2><br>
+        <h3>display</h3>
+        <pre class="language-css"><code>display: flex;</code></pre>
+        <h3>flex-direction</h3>
+        <pre class="language-css"><code>flex-direction: row | row-reverse | column | column-reverse;</code></pre>
+        <h3>flex-wrap</h3>
+        <pre class="language-css"><code>flex-wrap: nowrap | wrap | wrap-reverse;</code></pre>
+        <h3>flex-flow</h3>
+        <pre class="language-css"><code>flex-flow: column wrap;</code></pre>
+        <h3>justify-content</h3>
+        <pre
+            class="language-css"><code>justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe;</code></pre>
+        <h3>align-items</h3>
+        <pre
+            class="language-css"><code>align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe;</code></pre>
+        <h3>align-content</h3>
+        <pre
+            class="language-css"><code>align-content: flex-start | flex-end | center | space-between | space-around | space-evenly | stretch | start | end | baseline | first baseline | last baseline + ... safe | unsafe;</code></pre>
+        <br>
+
+        <h2>Child Properties (flex items)</h2>
+        <h3>order</h3>
+        <pre class="language-css"><code>order: 5; /* default is 0 */</code></pre>
+        <h3>flex-grow</h3>
+        <pre class="language-css"><code>flex-grow: 4; /* default 0 */</code></pre>
+        <h3>flex-shrink</h3>
+        <pre class="language-css"><code>flex-shrink: 3; /* default 1 */</code></pre>
+        <h3>flex-basis</h3>
+        <pre class="language-css"><code>flex-basis: | auto; /* default auto */</code></pre>
+        <h3>flex shorthand</h3>
+        <pre
+            class="language-css"><code>flex: none | [ &lt;'flex-grow'&gt; &lt;'flex-shrink'&gt;? || &lt;'flex-basis'&gt; ]</code></pre>
+        <h3>align-self</h3>
+        <pre
+            class="language-css"><code>align-self: auto | flex-start | flex-end | center | baseline | stretch;</code></pre>
+        <br>
+
+        <h2>CSS Grid</h2>
+        <p>Grid layout is a 2-Dimensional grid system to CSS that creates complex responsive web design layouts more
+            easily and consistently across browsers.</p><br>
+
+        <h2>Parent Properties (Grid container)</h2><br>
+        <h3>display</h3>
+        <pre class="language-css"><code>display: grid | inline-grid;</code></pre>
+        <h3>grid-template-columns</h3>
+        <pre class="language-css"><code>grid-template-columns: 12px 12px 12px;</code></pre>
+        <h3>grid-template-rows</h3>
+        <pre class="language-css"><code>grid-template-rows: 8px auto 12px;</code></pre>
+        <h3>grid-template</h3>
+        <pre
+            class="language-css"><code>grid-template: none | &lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;;</code></pre>
+        <h3>column-gap</h3>
+        <pre class="language-css"><code>column-gap: &lt;line-size&gt;;</code></pre>
+        <h3>row-gap</h3>
+        <pre class="language-css"><code>row-gap: &lt;line-size&gt;;</code></pre>
+        <h3>grid-column-gap</h3>
+        <pre class="language-css"><code>grid-column-gap: &lt;line-size&gt;;</code></pre>
+        <h3>grid-row-gap</h3>
+        <pre class="language-css"><code>grid-row-gap: &lt;line-size&gt;;</code></pre>
+        <h3>gap shorthand</h3>
+        <pre class="language-css"><code>gap: &lt;grid-row-gap&gt; &lt;grid-column-gap&gt;;</code></pre>
+        <h3>grid-gap shorthand</h3>
+        <pre class="language-css"><code>grid-gap: &lt;grid-row-gap&gt; &lt;grid-column-gap&gt;;</code></pre>
+        <h3>justify-items</h3>
+        <pre class="language-css"><code>justify-items: start | end | center | stretch;</code></pre>
+        <h3>align-items</h3>
+        <pre class="language-css"><code>align-items: start | end | center | stretch;</code></pre>
+        <h3>place-items</h3>
+        <pre class="language-css"><code>place-items: center;</code></pre>
+        <h3>justify-content</h3>
+        <pre
+            class="language-css"><code>justify-content: start | end | center | stretch | space-around | space-between | space-evenly;</code></pre>
+        <h3>align-content</h3>
+        <pre
+            class="language-css"><code>align-content: start | end | center | stretch | space-around | space-between | space-evenly;</code></pre>
+        <h3>place-content</h3>
+        <pre class="language-css"><code>place-content: &lt;align-content&gt; / &lt;justify-content&gt; ;</code></pre>
+        <h3>grid-auto-columns</h3>
+        <pre class="language-css"><code>grid-auto-columns: &lt;track-size&gt; ...;</code></pre>
+        <h3>grid-auto-rows</h3>
+        <pre class="language-css"><code>grid-auto-rows: &lt;track-size&gt; ...;</code></pre>
+        <h3>grid-auto-flow</h3>
+        <pre class="language-css"><code>grid-auto-flow: row | column | row dense | column dense;</code></pre>
+        <br>
+
+        <h2>Child Properties (Grid items)</h2><br>
+        <h3>grid-column-start</h3>
+        <pre
+            class="language-css"><code>grid-column-start: &lt;number&gt; | &lt;name&gt; | span &lt;number&gt; | span &lt;name&gt; | auto;</code></pre>
+        <h3>grid-column-end</h3>
+        <pre
+            class="language-css"><code>grid-column-end: &lt;number&gt; | &lt;name&gt; | span &lt;number&gt; | span &lt;name&gt; | auto;</code></pre>
+        <h3>grid-row-start</h3>
+        <pre
+            class="language-css"><code>grid-row-start: &lt;number&gt; | &lt;name&gt; | span &lt;number&gt; | span &lt;name&gt; | auto;</code></pre>
+        <h3>grid-row-end</h3>
+        <pre
+            class="language-css"><code>grid-row-end: &lt;number&gt; | &lt;name&gt; | span &lt;number&gt; | span &lt;name&gt; | auto;</code></pre>
+        <h3>grid-column shorthand</h3>
+        <pre
+            class="language-css"><code>grid-column: &lt;start-line&gt; / &lt;end-line&gt; | &lt;start-line&gt; / span &lt;value&gt;;</code></pre>
+        <h3>grid-row shorthand</h3>
+        <pre
+            class="language-css"><code>grid-row: &lt;start-line&gt; / &lt;end-line&gt; | &lt;start-line&gt; / span &lt;value&gt;;</code></pre>
+        <h3>grid-area</h3>
+        <pre
+            class="language-css"><code>grid-area: &lt;name&gt; | &lt;row-start&gt; / &lt;column-start&gt; / &lt;row-end&gt; / &lt;column-end&gt;;</code></pre>
+        <h3>justify-self</h3>
+        <pre class="language-css"><code>justify-self: start | end | center | stretch;</code></pre>
+        <h3>align-self</h3>
+        <pre class="language-css"><code>align-self: start | end | center | stretch;</code></pre>
+
+    </div>
+    <div class="main2">
+        <div class="footer">
+
+            <p style="font-size:15px" class="para">Copyright © 2021-2022 CodersGuide.com</p>
+            <h3></h3>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

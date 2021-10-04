@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(48, 47, 47);
+    color: white;
+    height: 56px;
+}
+
+.content{
+    font-family: 'Potta One', cursive;
+}
+
+.container{
+    width: 70vw;
+    padding: 20px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-size: 80px;
+}
+
+h2{
+    font-size: 40px;
+    font-weight:bold;
+}
+
+h3{
+    font-size: 25px;
+}
+
+p{
+    font-size: 18px;
+}
+
+.logo{
+    padding: 10px;
+}
+
+.toolbar-item button{
+    cursor: pointer !important;
+    color: white !important;
+    border-radius: 15px !important;
+}
+
+.footer{
+    padding: 10px;
+    text-align: center;
+    background: #202020;
+    color: white;
+    width: 100%;
+    height: 25px;
+  }

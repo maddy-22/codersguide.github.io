@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+  }
+  body{
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    background-image: url("images/about.jpg");
+  }
+    
+  
+    .header {
+      text-align: center;
+      background:rgb(39, 39, 39);
+      color: white;
+      height: 120px;
+      font-size: 20px;
+      padding: 1px;
+    }
+  
+    .header h1{
+      font-size: 48px;
+    }
+  
+    .navbar{
+      background-color: black;
+      border-radius: 10px;
+    }
+    .navbar img{
+      float: left;
+      width: 80px;
+      padding-left: 20px;
+    }
+    .navbar ul{
+      overflow: auto;
+    }
+    .navbar li{
+      float: left;
+      list-style: none;
+      margin: 13px 20px;
+    }
+    .navbar li a{
+      padding: 3px 3px;
+      text-decoration: none;
+      color: rgb(156, 156, 158);
+      font-size: 20px;
+  
+    }
+    .navbar li a:hover, .navbar li a.active {
+      text-decoration: underline;
+      color: white;
+  
+    }
+    .navbar input{
+      border: 2px solid black;
+      border-radius: 14px;
+      padding: 3px 17px;
+      width: 180px;
+    }
+  
+    .search{
+      float: right;
+      color: white;
+      padding: 13px 75px;
+    }
+
+    h1 {
+        font-size: 70px;
+        font-family: "Abril Fatface";
+        font-weight: 400;
+    
+    }
+    
+    h2 {
+        font-size: 35px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 300;
+    }
+    
+      h3 {
+        font-size: 30px;
+        font-family: "Abril Fatface";
+        font-weight: 400;
+    
+    }
+    
+      .footer{
+        padding: 10px;
+        text-align: center;
+        background: #202020;
+        color: white;
+        width: 100%;
+        height: 60px;
+    
+        
+      }
+      
+      .main {
+        float: left;
+        width: 55%;
+        padding-top: 20px;  
+        padding-left: 10%;
+      }
+      
+      .main1 {
+        float: left;
+        width: 80%;
+        padding-left: 10%;
+        padding-bottom: 40px;
+      }
+    
+      .main2{
+        float: left;
+        width: 100%;
+        padding-top: 10px;
+       
+      }
+    
+      .main3{
+        float: left;
+        width: 80%;
+        padding-left: 10%;
+        padding-top: 20px;
+        padding-bottom: 40px;
+      }
+    
+      .main2 img{
+        border-radius: 50%;
+        margin: 10px 400px;
+      }
+    
+      .right {
+        float: right;
+        width: 30%;
+        font-size: 14px;
+        font-family: "Raleway";
+        padding-left: 40px;
+        padding-top: 70px;
+        margin-top: 7px;
+        text-align: left;
+      }
+    
+      .para{
+        font-size: 21px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 400; 
+      }
+      
+      a{
+        text-decoration: none;
+        color: black;
+    
+      }
+
+      .input {
+        width: 100%; 
+        padding: 12px; 
+        border: 1px solid #ccc; 
+        border-radius: 4px; 
+        box-sizing: border-box; 
+        margin-top: 6px; 
+        margin-bottom: 16px; 
+        resize: vertical 
+      }
+      
+      /* Style the submit button with a specific background color etc */
+      input[type=submit] {
+        background-color: #04AA6D;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      /* When moving the mouse over the submit button, add a darker green color */
+      input[type=submit]:hover {
+        background-color: #45a049;
+      }
+      
+      /* Add a background color and some padding around the form */
+      .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
